@@ -1,8 +1,7 @@
 {
   "name": "slate-yjs",
   "workspaces": [
-    "packages/*",
-    "examples/*"
+    "packages/*"
   ],
   "scripts": {
     "build": "yarn workspaces foreach -ipv --topological-dev run build",
