@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-Slate-yjs aims to be the goto collaboration solution for slate. Get started in seconds, scale to infinity, customize to your hearts content.
+Slate-yjs(FoRKED) aims to be the goto collaboration solution for slate. Get started in seconds, scale to infinity, customize to your hearts content.
 </p>
 
 <br/>
