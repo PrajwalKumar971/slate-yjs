@@ -16,7 +16,8 @@
     "test:watch": "yarn run vitest",
     "clean": "git clean -dfX",
     "prerelease": "yarn lint && yarn test && yarn build",
-    "release": "yarn prerelease && yarn changeset publish"
+    "release": "yarn prerelease && yarn changeset publish",
+    "postinstall": "yarn workspaces foreach -ipv --topological-dev run build"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.7",
